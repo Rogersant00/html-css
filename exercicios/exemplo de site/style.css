@@ -1,0 +1,37 @@
+@charset "utf";
+*{ /*height: 100%;*/
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-image: linear-gradient(to right,#008F8C, #015958 );
+}
+
+main{
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 15px 15px 15px #00161663;
+    width: 600px;
+    padding: 10px;;
+    margin: auto;
+
+}
+ h1 {color: #71c ;
+    text-align: center;
+    text-shadow: 1px 1.5px 0px #001a19 ;
+
+ }
+ h2 {color: #0538389a;
+
+ }
+
+p {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+
+}
+#paragrafo1:hover{
+    background-color: yellowgreen;
+}
