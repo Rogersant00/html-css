@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header>h1{padding-top: 50px;
+    font-variant: small-caps;
+
+}
+header>p{
+    padding-bottom: 50px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+
+}
+footer a:hover{
+    text-decoration: underline;
+}
